@@ -1,0 +1,47 @@
+.con-button {
+  flex: 1 1;
+  /* hace que se distribuyan de forma uniforme los elementos  */
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #898989;
+  color: black;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+  /* user-select hace que no se pueda copiar el texto*/
+  box-shadow: 1px 1px 6px 1px black;
+  transition: 0.15s;
+}
+
+.con-button:hover {
+  background-color: #c2c2c2;
+}
+
+.con-button:active {
+  background-color: #3b3b3b;
+  box-shadow: -1px -1px 4px -1px black;
+  color: white;
+}
+
+.operation {
+  background-color: #00471b;
+  color: white;
+  transition: 0.15s;
+}
+
+.operation:hover {
+  background-color: #407c4e;
+}
+
+.operation:active {
+  background-color: #2b3c2b;
+  box-shadow: -1px -1px 4px -1px black;
+  color: white;
+}
+
